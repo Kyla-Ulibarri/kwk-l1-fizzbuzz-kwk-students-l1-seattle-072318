@@ -9,13 +9,15 @@
   #  puts "   "
  #end
 
-fizzbuzz(15)
+
 
 def fizzbuzz(number)
   if number%5
     puts "buzz"
   end
 end
+
+fizzbuzz(15)
 
 #def fizzbuzz(number)
  # if number%3 and number%5
