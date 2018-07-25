@@ -1,22 +1,21 @@
-def fizzbuzz(number)
-  if number%3 
-    puts "fizz"
-  elsif number%5
-    puts "buzz"
-  elsif number%3 and number%5
-    puts "fizzbuzz"
-  else 
-    puts "   "
-  end
-end
+#def fizzbuzz(number)
+  #if number%3 
+ #   puts "fizz"
+#  elsif number%5
+ #   puts "buzz"
+#  elsif number%3 and number%5
+   # puts "fizzbuzz"
+  #else 
+  #  puts "   "
+ #end
 
 fizzbuzz(5)
 
-#def fizzbuzz(number)
- # if number%5
- #   puts "buzz"
-#  end
-#end
+def fizzbuzz(number)
+  if number%5
+    puts "buzz"
+  end
+end
 
 #def fizzbuzz(number)
  # if number%3 and number%5
