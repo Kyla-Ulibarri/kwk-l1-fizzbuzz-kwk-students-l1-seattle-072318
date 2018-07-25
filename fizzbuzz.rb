@@ -9,7 +9,7 @@
   #  puts "   "
  #end
 
-fizzbuzz(5)
+fizzbuzz(15)
 
 def fizzbuzz(number)
   if number%5
